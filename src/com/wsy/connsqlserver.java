@@ -34,7 +34,7 @@ public class connsqlserver {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connection = DriverManager.getConnection(connectionUrl, "root", "34814827");
+			connection = DriverManager.getConnection(connectionUrl, "root", "");
 			//System.out.println("Connected!");
 		} catch (Exception e) {
 			e.printStackTrace();
